@@ -14,11 +14,11 @@ while True:
     else:
         print("Different")
 
-    print("Type of a is: ", type(a))
-    print("Type of b is: ", type(b))
+    print("a es de tipo: ", type(a))
+    print("a es de tipo: ", type(b))
     print("c = ", type(c))
 
     if type(a) == type(b):
-        print("a and b are of the same type")
+        print("a y b son del mismo tipo")
     else:
-        print("a and b are of different type")
+        print("a y b no son del mismo tipo")

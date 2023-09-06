@@ -1,11 +1,11 @@
 while True:
-    x = int(input('Inserte su número factorial: '))
-    y = 1
-    for i in range(1, x+1):
-       y*= i
-    print(x)
-    print("El Factorial es: ")
-    print(y)
-    z=int(input("¿Desea continuar con el programa? Digite 1 para confirmar: " ))
-    if z != 1:
+    def fact(x):
+        if x==1:
+            return 1
+        else:
+            return x * fact(x-1)
+    x=int(input('Digite el límite del rango: '))
+    print(fact(x))
+    y=int(input("Desea Terminar el proceso? Digite 1 para confirmar: "))
+    if y==1:
         break

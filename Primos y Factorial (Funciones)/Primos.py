@@ -13,6 +13,7 @@ while True:
                         print(f'{i} primo')
             else:
                         print(f'{i} no primo')
+        return "Rango completo"
     x=int(input('Ingrese el límite del rango: '))
     print(primo(x))
     y=int(input("Desea Terminar el proceso? Digite 1 para confirmar: "))

@@ -5,7 +5,7 @@ while True:
         print('1 primo')
         for i in range(2,x+1):
             conta = 0
-            for n in range(2, x):
+            for n in range(2, x+1):
                 residue = i%n
                 if residue == 0:
                     conta = conta + 1
